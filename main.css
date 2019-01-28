@@ -1,0 +1,265 @@
+div {
+  position: relative;
+}
+
+body {
+  background-color: rgb(49, 146, 190);
+}
+
+.cat {
+  left: 50px;
+  top: 50px;
+}
+
+/*----- top part -----*/
+.ear {
+  width: 0px;
+  height: 0px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 50px solid grey;
+}
+
+.ear-left {
+  left: 64px;
+  transform: skewX(35deg);
+}
+
+.ear-right {
+  left: 146px;
+  top: -50px;
+  transform: skewX(-35deg);
+}
+
+.inner-ear {
+  width: 0px;
+  height: 0px;
+  border-left: 12px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid mistyrose;
+}
+
+.inner-ear-left {
+  top: -80px;
+  left: 82px;
+  transform: skewX(35deg);
+}
+
+.inner-ear-right {
+  top: -101px;
+  left: 165px;
+  transform: skewX(-35deg);
+}
+
+.head {
+  width: 130px;
+  height: 140px;
+  background-color: dimgrey;
+  border-radius: 50px;
+  top: -110px;
+  left: 70px;
+}
+
+.eye {
+  width: 30px;
+  height: 25px;
+  border-radius: 100px / 80px;
+  background-color: black;
+}
+
+.left-eye {
+  top: -765px;
+  left: 98px;
+}
+
+.right-eye {
+  top: -790px;
+  left: 138px;
+}
+
+.pupil {
+  width: 12px;
+  height: 12px;
+  border-radius: 100px;
+  background-color: lightgreen;
+}
+
+.left-pupil {
+  top: -810px;
+  left: 112px;
+}
+
+.right-pupil {
+  top: -822px;
+  left: 152px;
+}
+
+.nose {
+  height: 0;
+  width: 0;
+  border-top: 12px solid darksalmon;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-radius: 100px;
+  top: -805px;
+  left: 123px;
+  z-index: 10;
+}
+
+.mouth {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  box-shadow: 0 4px grey;
+}
+
+.mouth-left {
+  top: -829px;
+  left: 103px;
+  transform: rotate(-20deg);
+}
+
+.mouth-right {
+  top: -859px;
+  left: 133px;
+  transform: rotate(20deg);
+}
+
+.whisker {
+  height: 0;
+  width: 0;
+  border-right: 80px solid oldlace;
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  margin: 4px;
+}
+
+.whisker-top-left {
+  top: -893px;
+  left: 16px;
+  transform: rotate(15deg);
+}
+
+.whisker-middle-left {
+  top: -885px;
+  left: 14px;
+}
+
+.whisker-bottom-left {
+  top: -877px;
+  left: 16px;
+  transform: rotate(-15deg);
+}
+
+.whisker-top-right {
+  top: -914px;
+  left: 163px;
+  transform: rotate(160deg);
+}
+
+.whisker-middle-right {
+  top: -903px;
+  left: 166px;
+  transform: rotate(180deg);
+}
+
+.whisker-bottom-right {
+  top: -892px;
+  left: 163px;
+  transform: rotate(-160deg);
+}
+
+/*----- bottom part -----*/
+.body {
+  height: 270px;
+  width: 190px;
+  background-color: dimgrey;
+  border-radius: 60% 60% 60% 60% / 80% 80% 60% 60%;
+  top: -135px;
+  left: 40px;
+}
+
+.tail {
+  width: 240px;
+  height: 220px;
+  border-radius: 35%;
+  box-shadow: 20px 20px grey;
+  top: -390px;
+  left: 20px;
+  z-index: -10;
+}
+
+.paw {
+  width: 40px;
+  height: 30px;
+  background-color: grey;
+  border-radius: 40px;
+}
+
+.paw-left {
+  top: -370px;
+  left: 85px;
+}
+
+.paw-right {
+  top: -400px;
+  left: 140px;
+}
+
+.stripe-left {
+  height: 0;
+  width: 0;
+  border-left: 70px solid #333;
+  border-bottom: 15px solid transparent;
+  border-top: 15px solid transparent;
+}
+
+.stripe-left-1 {
+  top: -800px;
+  left: 50px;
+  border-radius: 4% 2% / 80% 80%;
+  transform: rotate(16deg);
+}
+
+.stripe-left-2 {
+  top: -790px;
+  left: 42px;
+  border-radius: 2% 2% / 80% 80%;
+  transform: rotate(7deg);
+}
+
+.stripe-left-3 {
+  top: -780px;
+  left: 40.5px;
+  border-radius: 3% 3% / 80% 80%;
+  transform: rotate(-5deg);
+}
+
+.stripe-right {
+  height: 0;
+  width: 0;
+  border-right: 70px solid #333;
+  border-bottom: 15px solid transparent;
+  border-top: 15px solid transparent;
+}
+
+.stripe-right-1 {
+  top: -889px;
+  left: 150.5px;
+  border-radius: 2.5% 2.5% / 80% 80%;
+  transform: rotate(-17deg);
+}
+
+.stripe-right-2 {
+  top: -881px;
+  left: 158px;
+  border-radius: 2.5% 2.5% / 80% 80%;
+  transform: rotate(-6deg);
+}
+
+.stripe-right-3 {
+  top: -870px;
+  left: 159px;
+  border-radius: 2.5% 2.5% / 80% 80%;
+  transform: rotate(6deg);
+}
